@@ -3,4 +3,5 @@
     <string name="start_service">Start Service</string>
     <string name="service_lifecycle">Service Lifecycle</string>
     <string name="stop_service">Stop Service</string>
+    <string name="simple_service">Simple Service</string>
 </resources>

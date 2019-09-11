@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="._002_service_lifecycle.ServiceLifecycleActivity" />
+        <activity android:name="._003_simple_service.SimpleServiceActivity" />
 
         <activity android:name="._001_start_service.StartServiceActivity" />
         <activity android:name=".MainActivity">
@@ -20,6 +21,7 @@
             </intent-filter>
         </activity>
 
+        <service android:name="._003_simple_service.MyService" />
         <service android:name="._002_service_lifecycle.MyService" />
         <service android:name="._001_start_service.MyService" />
     </application>
