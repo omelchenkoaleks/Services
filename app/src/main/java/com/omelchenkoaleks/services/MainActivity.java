@@ -9,6 +9,7 @@ import android.view.View;
 import com.omelchenkoaleks.services._001_start_service.StartServiceActivity;
 import com.omelchenkoaleks.services._002_service_lifecycle.ServiceLifecycleActivity;
 import com.omelchenkoaleks.services._003_simple_service.SimpleServiceActivity;
+import com.omelchenkoaleks.services._004_service_data.ServiceDataActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,6 +36,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.simple_service_button:
                 Intent simpleServiceIntent = new Intent(this, SimpleServiceActivity.class);
                 startActivity(simpleServiceIntent);
+                break;
+
+            case R.id.service_data_button:
+                Intent serviceDataIntent = new Intent(this, ServiceDataActivity.class);
+                startActivity(serviceDataIntent);
                 break;
         }
     }
