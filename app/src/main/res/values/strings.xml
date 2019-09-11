@@ -5,4 +5,14 @@
     <string name="stop_service">Stop Service</string>
     <string name="simple_service">Simple Service</string>
     <string name="service_data">Service Data</string>
+    <string name="empty_text" />
+    <string name="task_1">Task 1</string>
+    <string name="task_2">Task 2</string>
+    <string name="task_3">Task 3</string>
+    <string name="task_start_result">TASK 1 start</string>
+    <string name="task_start_2_result">TASK 2 start</string>
+    <string name="start_task_3_result">TASK 3 start</string>
+    <string name="finish_1">TASK 1 finish, result = </string>
+    <string name="finish_2">TASK 2 finish, result = </string>
+    <string name="finish_3">TASK 3 finish, result = </string>
 </resources>

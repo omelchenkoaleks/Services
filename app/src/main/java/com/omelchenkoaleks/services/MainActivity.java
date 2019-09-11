@@ -10,6 +10,7 @@ import com.omelchenkoaleks.services._001_start_service.StartServiceActivity;
 import com.omelchenkoaleks.services._002_service_lifecycle.ServiceLifecycleActivity;
 import com.omelchenkoaleks.services._003_simple_service.SimpleServiceActivity;
 import com.omelchenkoaleks.services._004_service_data.ServiceDataActivity;
+import com.omelchenkoaleks.services._005_send_data_pending_intent.SendDataPendingIntentActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,6 +42,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.service_data_button:
                 Intent serviceDataIntent = new Intent(this, ServiceDataActivity.class);
                 startActivity(serviceDataIntent);
+                break;
+
+            case R.id.send_data_pending_intent_button:
+                Intent sendDataPendingIntent = new Intent(this, SendDataPendingIntentActivity.class);
+                startActivity(sendDataPendingIntent);
                 break;
         }
     }

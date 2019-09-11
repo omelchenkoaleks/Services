@@ -22,8 +22,6 @@ public class ServiceData extends Service {
     public void onCreate() {
         super.onCreate();
         Log.d(TAG, "onCreate");
-        
-        // указываем число потоков и последовательность для запуска
 
         /*
             Когда к нашему сервису подключается несколько процесов одновременно,
@@ -34,7 +32,8 @@ public class ServiceData extends Service {
             другие могут не успеть доделать свою работу (сервис уже будет остановлен)
          */
 
-        mExecutorService = Executors.newFixedThreadPool(3);
+        // указываем число потоков и последовательность для запуска
+        mExecutorService = Executors.newFixedThreadPool(1);
         
         mSomeObject = new Object();
     }
