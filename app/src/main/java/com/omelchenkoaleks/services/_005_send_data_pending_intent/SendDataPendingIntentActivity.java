@@ -4,6 +4,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -29,7 +30,6 @@ public class SendDataPendingIntentActivity extends AppCompatActivity {
     private TextView mTask_1_TextView;
     private TextView mTask_2_TextView;
     private TextView mTask_3_TextView;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

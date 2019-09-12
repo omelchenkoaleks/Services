@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="._005_send_data_pending_intent.SendDataPendingIntentActivity" />
+        <activity android:name="._006_send_data_broadcast.SendDataBroadcastActivity" />
 
+        <activity android:name="._005_send_data_pending_intent.SendDataPendingIntentActivity" />
         <activity android:name="._004_service_data.ServiceDataActivity" />
         <activity android:name="._002_service_lifecycle.ServiceLifecycleActivity" />
         <activity android:name="._003_simple_service.SimpleServiceActivity" />
@@ -23,6 +24,7 @@
             </intent-filter>
         </activity>
 
+        <service android:name="._006_send_data_broadcast.SendDataBroadcastService" />
         <service android:name="._005_send_data_pending_intent.SendDataService" />
         <service android:name="._004_service_data.ServiceData" />
         <service android:name="._003_simple_service.MyService" />
