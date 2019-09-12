@@ -17,4 +17,7 @@
     <string name="finish_3">TASK 3 finish, result = </string>
     <string name="send_data_broadcast">Send Data Broadcast</string>
     <string name="send_data_pending_intent">Send Data Pending Intent</string>
+    <string name="binding">Binding</string>
+    <string name="bind">Bind</string>
+    <string name="unbind">Unbind</string>
 </resources>
