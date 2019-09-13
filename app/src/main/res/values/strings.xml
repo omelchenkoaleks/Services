@@ -23,4 +23,5 @@
     <string name="local_binding">Local Binding</string>
     <string name="up">Up</string>
     <string name="down">Down</string>
+    <string name="notification">Notification</string>
 </resources>

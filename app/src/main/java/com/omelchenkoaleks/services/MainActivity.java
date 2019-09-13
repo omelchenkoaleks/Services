@@ -14,6 +14,7 @@ import com.omelchenkoaleks.services._005_send_data_pending_intent.SendDataPendin
 import com.omelchenkoaleks.services._006_send_data_broadcast.SendDataBroadcastActivity;
 import com.omelchenkoaleks.services._007_binding.BindingActivity;
 import com.omelchenkoaleks.services._008_local_binding.LocalBindingActivity;
+import com.omelchenkoaleks.services._009_notification.NotificationActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -65,6 +66,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.local_binding_button:
                 Intent localBindingIntent = new Intent(this, LocalBindingActivity.class);
                 startActivity(localBindingIntent);
+                break;
+
+            case R.id.notification_button:
+                Intent notificationIntent = new Intent(this, NotificationActivity.class);
+                startActivity(notificationIntent);
                 break;
         }
     }
