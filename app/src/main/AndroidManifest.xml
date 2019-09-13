@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="._007_binding.BindingActivity" />
+        <activity android:name="._008_local_binding.LocalBindingActivity" />
 
+        <activity android:name="._007_binding.BindingActivity" />
         <activity android:name="._006_send_data_broadcast.SendDataBroadcastActivity" />
         <activity android:name="._005_send_data_pending_intent.SendDataPendingIntentActivity" />
         <activity android:name="._004_service_data.ServiceDataActivity" />
@@ -25,6 +26,7 @@
             </intent-filter>
         </activity>
 
+        <service android:name="._008_local_binding.LocalBindingService" />
         <service android:name="._007_binding.BindingService" />
         <service android:name="._006_send_data_broadcast.SendDataBroadcastService" />
         <service android:name="._005_send_data_pending_intent.SendDataService" />

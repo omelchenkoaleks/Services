@@ -13,6 +13,7 @@ import com.omelchenkoaleks.services._004_service_data.ServiceDataActivity;
 import com.omelchenkoaleks.services._005_send_data_pending_intent.SendDataPendingIntentActivity;
 import com.omelchenkoaleks.services._006_send_data_broadcast.SendDataBroadcastActivity;
 import com.omelchenkoaleks.services._007_binding.BindingActivity;
+import com.omelchenkoaleks.services._008_local_binding.LocalBindingActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -59,6 +60,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.binding_button:
                 Intent bindingIntent = new Intent(this, BindingActivity.class);
                 startActivity(bindingIntent);
+                break;
+
+            case R.id.local_binding_button:
+                Intent localBindingIntent = new Intent(this, LocalBindingActivity.class);
+                startActivity(localBindingIntent);
                 break;
         }
     }

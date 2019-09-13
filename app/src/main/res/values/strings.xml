@@ -20,4 +20,7 @@
     <string name="binding">Binding</string>
     <string name="bind">Bind</string>
     <string name="unbind">Unbind</string>
+    <string name="local_binding">Local Binding</string>
+    <string name="up">Up</string>
+    <string name="down">Down</string>
 </resources>

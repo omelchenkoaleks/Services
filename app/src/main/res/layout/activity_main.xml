@@ -98,4 +98,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/send_data_broadcast_button" />
 
+    <Button
+        android:id="@+id/local_binding_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorAccent"
+        android:onClick="onClick"
+        android:text="@string/local_binding"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/binding_button" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainChildBackground"
+    android:padding="16dp"
+    tools:context="._008_local_binding.LocalBindingActivity">
+
+    <Button
+        android:id="@+id/start_service_local_binding_button"
+        style="@style/button_style"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_button"
+        android:onClick="startServiceLocalBindingOnClick"
+        android:text="@string/start_service"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <Button
+        android:id="@+id/up_local_binding_button"
+        style="@style/button_style"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_button"
+        android:onClick="upLocalBindingOnClick"
+        android:text="@string/up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_service_local_binding_button" />
+
+    <Button
+        android:id="@+id/down_local_service_button"
+        style="@style/button_style"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_button"
+        android:onClick="downLocalBindingOnClick"
+        android:text="@string/down"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/up_local_binding_button" />
+
+    <Button
+        android:id="@+id/stop_service_local_binding_button"
+        style="@style/button_style"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_button"
+        android:onClick="stopServiceLocalBindingOnClick"
+        android:text="@string/stop_service"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/down_local_service_button" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <TextView
+        android:id="@+id/interval_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/text_view_style"
+        android:background="@drawable/style_text_view"
+        android:layout_marginBottom="16dp"
+        android:text="@string/empty_text"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
