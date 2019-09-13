@@ -15,6 +15,7 @@ import com.omelchenkoaleks.services._006_send_data_broadcast.SendDataBroadcastAc
 import com.omelchenkoaleks.services._007_binding.BindingActivity;
 import com.omelchenkoaleks.services._008_local_binding.LocalBindingActivity;
 import com.omelchenkoaleks.services._009_notification.NotificationActivity;
+import com.omelchenkoaleks.services._010_play_service.PlayServiceActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -71,6 +72,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.notification_button:
                 Intent notificationIntent = new Intent(this, NotificationActivity.class);
                 startActivity(notificationIntent);
+                break;
+
+            case R.id.play_service_button:
+                Intent playServiceIntent = new Intent(this, PlayServiceActivity.class);
+                startActivity(playServiceIntent);
                 break;
         }
     }

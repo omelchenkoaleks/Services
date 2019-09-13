@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="._009_notification.NotificationActivity" />
+        <activity android:name="._010_play_service.PlayServiceActivity" />
 
+        <activity android:name="._009_notification.NotificationActivity" />
         <activity android:name="._008_local_binding.LocalBindingActivity" />
         <activity android:name="._007_binding.BindingActivity" />
         <activity android:name="._006_send_data_broadcast.SendDataBroadcastActivity" />
@@ -27,6 +28,7 @@
             </intent-filter>
         </activity>
 
+        <service android:name="._010_play_service.PlayService" />
         <service
             android:name="._009_notification.NotificationService"
             android:process=":myservice" />
